@@ -75,7 +75,7 @@ TvShow contains the following attributes:
 ## Running the project
 1. Added data to entertainment_center.py using the appropriate class
 defined in media.py.
-2. Call fresh_tomatoes.py from terminal:
-`python fresh_tomatoes.py`
+2. Call entertainment_center.py from terminal:
+`python entertainent_center.py`
 3. default browser will open with the website rendered with the data
 from entertainment_center.py

@@ -1,0 +1,59 @@
+<div class="col-md-6 col-lg-4 movie-tile-container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+                <img src="{poster_image_url}" width="220" height="342">
+                <h2> {movie_title} </h2>
+            </div>
+        </div>
+        <div class="panel-footer text-center info-modal">
+            <a href="#" class="glyphicon glyphicon-info-sign" data-toggle="modal" data-target="#{modalid}"></a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="{modalid}" tabindex="-1" role="dialog" aria-labelledby="MediaInfoModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">{movie_title}</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <tr>
+                            <td>Type:</td>
+                            <td>{type}</td>
+                        </tr>
+                        <tr>
+                            <td>Storyline:</td>
+                            <td>{storyline}</td>
+                        </tr>
+                        <tr>
+                            <td>Actors:</td>
+                            <td>{actors}</td>
+                        </tr>
+                        <tr>
+                            <td>IMDB Rating:</td>
+                            <td>{imdb_rating}</td>
+                        </tr>
+                        <tr>
+                            <td>Genre:</td>
+                            <td>{genre}</td>
+                        </tr>
+                        <tr>
+                            <td>Year(s)</td>
+                            <td>{year}</td>
+                        </tr>
+                        <tr>
+                            <td>Seasons</td>
+                            <td>{seasons}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

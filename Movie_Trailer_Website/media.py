@@ -2,7 +2,24 @@ import webbrowser
 
 
 class Media():
-    def __init__(self, title, storyline, trailer_youtube_url, actors, imdb_rating, genre, poster_image_url):
+    """ Parent class to Movie and TvShow contains general info for media
+        Attributes:
+            title: String
+            storyline: String
+            trailer_youtube_url: String
+            actors: List of Strings
+            imdb_rating: Float
+            genre: List of Strings
+            poster_image_url: Sting
+    """
+    def __init__(self,
+                 title,
+                 storyline,
+                 trailer_youtube_url,
+                 actors,
+                 imdb_rating,
+                 genre,
+                 poster_image_url):
         self.title = title
         self.storyline = storyline
         self.trailer_youtube_url = trailer_youtube_url
@@ -13,9 +30,30 @@ class Media():
 
 
 class Movie(Media):
-    """Extension of MotionPicture Class, contains data about Movies."""
-    def __init__(self, title, trailer_youtube_url, storyline,
-                 poster_image_url, actors, imdb_rating, genre, year, director):
+    """Extension of MotionPicture Class, contains data about Movies.
+        Contains specific information for Movies
+        Attributes:
+            title: String
+            storyline: String
+            trailer_youtube_url: String
+            actors: List of Strings
+            imdb_rating: Float
+            genre: List of Strings
+            poster_image_url: Sting
+            year: Int
+            director: String
+            type: String, automatically set to "Movie"
+    """
+    def __init__(self,
+                 title,
+                 trailer_youtube_url,
+                 storyline,
+                 poster_image_url,
+                 actors,
+                 imdb_rating,
+                 genre,
+                 year,
+                 director):
 
         Media.__init__(self,
                        title=title,
@@ -40,8 +78,32 @@ class Movie(Media):
 
 
 class TvShow(Media):
-    """Extension of MotionPicture Class, contains data about TV Show."""
-    def __init__(self, title, storyline, trailer_youtube_url, poster_image_url, actors, imdb_rating, genre, start_year, seasons, end_year=None):
+    """Extension of MotionPicture Class, contains data about TV Show.
+        Contains specific information for TvShows
+        Attributes:
+            title: String
+            storyline: String
+            trailer_youtube_url: String
+            actors: List of Strings
+            imdb_rating: Float
+            genre: List of Strings
+            poster_image_url: Sting
+            start_year: Int
+            end_year(Optional): Int, if not supplied default set to None
+            seasons: Int
+            type: String, automatically set to "Tv Show"
+    """
+    def __init__(self,
+                 title,
+                 storyline,
+                 trailer_youtube_url,
+                 poster_image_url,
+                 actors,
+                 imdb_rating,
+                 genre,
+                 start_year,
+                 seasons,
+                 end_year=None):
 
         Media.__init__(self,
                        title=title,

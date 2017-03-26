@@ -19,9 +19,9 @@ def create_media_tiles_content(media):
         # Extract the youtube ID from the url
         youtube_id_match = re.search(r'(?<=v=)[^&#]+',
                                      media_item.trailer_youtube_url)
-        youtube_id_match = youtube_id_match \
-                           or re.search(r'(?<=be/)[^&#]+',
-                                        media_item.trailer_youtube_url)
+        youtube_id_match = youtube_id_match or \
+                           re.search(r'(?<=be/)[^&#]+',
+                                     media_item.trailer_youtube_url)
         trailer_youtube_id = youtube_id_match.group(0) \
             if youtube_id_match else None
 
@@ -59,7 +59,8 @@ def open_movies_page(media):
 
     # Replace the placeholder for the movie tiles with
     # the actual dynamically generated content
-    rendered_content = main_page_content.format(movie_tiles=create_media_tiles_content(media))
+    rendered_content = main_page_content.format(
+                        movie_tiles=create_media_tiles_content(media))
 
     # Output the file
     output_file.write(main_page_head + rendered_content)
@@ -69,6 +70,7 @@ def open_movies_page(media):
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)  # open in a new tab, if possible
 
+
 def list2str(list):
     """Takes in a list and returns a comma separated string of list items"""
     string = ''
@@ -77,6 +79,7 @@ def list2str(list):
         if i < len(list)-1:
             string += ", "
     return string
+
 
 def create_modal_id(title):
     """Returns string of title where blankspace is replaced with _ """

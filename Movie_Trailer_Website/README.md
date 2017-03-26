@@ -56,7 +56,7 @@ TvShow contains the following attributes:
 
  |Attribute Name     | Type          |    Example    |
  |-------------------|---------------|---------------|
- |title              |STRING         |Silicon Vally  |
+ |title              |STRING         |Silicon Valley  |
  |storyline          |STRING         |"In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. A comedy partially inspired by Mike Judge's own experiences as a Silicon Valley engineer in the late 1980s."|
  |trailer_youtube_url| STRING        | https://www.youtube.com/watch?v=r8sCCf82Nf8|
  |actors             |LIST of STRINGs| ["Thomas Middleditch", "T.J. Miller", "Josh Brener", "Martin Starr", "Kumail Nanjiani", "Amanda Crew"]|

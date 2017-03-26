@@ -1,0 +1,6 @@
+# workstation stuff
+.idea/*
+
+
+# Python stuff
+*.pyc

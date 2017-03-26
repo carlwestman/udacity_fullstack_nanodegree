@@ -73,7 +73,7 @@ TvShow contains the following attributes:
  what information structure template to use.
 
 ## Running the project
-1. Added data to entertainment_center.py using the appropriate class
+1. Add data to entertainment_center.py using the appropriate class
 defined in media.py.
 2. Call entertainment_center.py from terminal:
 `python entertainent_center.py`

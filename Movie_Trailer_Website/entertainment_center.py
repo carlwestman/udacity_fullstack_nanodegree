@@ -22,8 +22,7 @@ forest_gump = media.Movie(title="Forest Gump",
                            prove is that anyone can love anyone.",
                           trailer_youtube_url="https://www.youtube.com\
                           /watch?v=uPIEn0M8su0",
-                          poster_image_url="https://upload.wikimedia.org/wikipedia\
-                          /en/6/67/Forrest_Gump_poster.jpg",
+                          poster_image_url="https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
                           actors=["Tom Hanks", "Robin Wright", "Gary Sinise"],
                           imdb_rating=8.8,
                           genre=["Comedy", "Drama", "Romance"],
@@ -51,8 +50,7 @@ platoon = media.Movie(title="Platoon",
                       and the conflict between the men within his platoon.",
                       trailer_youtube_url="https://www.youtube.com/\
                       watch?v=AykiF9YYF2U",
-                      poster_image_url="https://upload.wikimedia.org/\
-                      wikipedia/en/a/a9/Platoon_posters_86.jpg",
+                      poster_image_url="https://upload.wikimedia.org/wikipedia/en/a/a9/Platoon_posters_86.jpg",
                       actors=["Charlie Sheen", "Tom Berenger", "Willem Dafoe"],
                       imdb_rating=8.1,
                       genre=["Drama", "War"],
@@ -78,9 +76,7 @@ wallstreet = media.Movie(title="Wall street",
                          Fox was brought up.",
                          trailer_youtube_url="https://www.youtube.com/\
                          watch?v=FCctqbRrsBQ",
-                         poster_image_url="https://upload.wikimedia.org/\
-                         wikipedia/en/thumb/b/bc/Wall_Street_film.\
-                         jpg/220px-Wall_Street_film.jpg",
+                         poster_image_url="https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Wall_Street_film.jpg/220px-Wall_Street_film.jpg",
                          actors=["Charlie Sheen",
                                  "Michael Douglas",
                                  "Tamara Tunie"],
@@ -111,9 +107,7 @@ midnight_in_paris = media.Movie(title="Midnight in Paris",
                                 further from the woman he's about to marry.",
                                 trailer_youtube_url="https://www.youtube.com/\
                                 watch?v=BYRWfS2s2v4",
-                                poster_image_url="https://upload.wikimedia.\
-                                org/wikipedia\
-                                /en/9/9f/Midnight_in_Paris_Poster.jpg",
+                                poster_image_url="https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
                                 actors=["Owen Wilson",
                                         "Rachel McAdams",
                                         "Kathy Bates"],
@@ -137,9 +131,7 @@ life_aquatic = media.Movie(title="Life Aquatic",
                            one wild expedition.",
                            trailer_youtube_url="https://www.youtube.com/watch\
                            ?v=yh401Rmkq0o",
-                           poster_image_url="https://upload.wikimedia.org/wikipedia/\
-                           en/thumb/7/7c/Lifeaquaticposter.jpg\
-                           /220px-Lifeaquaticposter.jpg",
+                           poster_image_url="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Lifeaquaticposter.jpg/220px-Lifeaquaticposter.jpg",
                            actors=["Bill Murray",
                                    "Owen Wilson",
                                    "Anjelica Huston"],
@@ -164,12 +156,7 @@ friends = media.TvShow(title="Friends",
                        really means to be a friend.",
                        trailer_youtube_url="https://www.youtube.com/\
                        watch?v=Eibl9JIpcKk",
-                       poster_image_url="https://images-na.ssl-\
-                       images-amazon.com\
-                       /images/M/MV5BMTg4NzEyNzQ5OF5BMl\
-                       5BanBnXkFtZTYwNTY3NDg4.\
-                       _V1._CR24,0,293,443_UX182_CR0,0,\
-                       182,268_AL_.jpg",
+                       poster_image_url="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg4NzEyNzQ5OF5BMl5BanBnXkFtZTYwNTY3NDg4._V1._CR24,0,293,443_UX182_CR0,0,182,268_AL_.jpg",
                        actors=["Jennifer Aniston", "Courteney Cox",
                                "Lisa Kudrow", "Matthew Perry",
                                "David Schwimmer", "Matt LeBlanc"],
@@ -217,11 +204,7 @@ big_bang_theory = media.TvShow(title="Big Bang Theory",
                                get Penny to be his girlfriend.",
                                trailer_youtube_url="https://www.youtube.com/\
                                watch?v=3WPSDiTuHWQ",
-                               poster_image_url="https://images-na.ssl\
-                               -images-amazon.com/\
-                               images/M/MV5BMTUyNDMxNjQyN15BMl5BanBn\
-                               XkFtZTgwNzA4NDQwMDI@.\
-                               _V1_UX182_CR0,0,182,268_AL_.jpg",
+                               poster_image_url="https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNDMxNjQyN15BMl5BanBnXkFtZTgwNzA4NDQwMDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
                                actors=["Johnny Galecki",
                                        "Jim Parsons",
                                        "Kaley Cuoco",
@@ -250,11 +233,7 @@ game_of_thrones = media.TvShow(title="Game of Thrones",
                                across the Narrow Sea.",
                                trailer_youtube_url="https://www.\
                                youtube.com/watch?v=8Ld-1Puov00",
-                               poster_image_url="https://images-\
-                               na.ssl-images-amazon.com/\
-                               images/M/MV5BMjEwOTcxODc2Ml5BMl\
-                               5BanBnXkFtZTgwMjMyMDk2MTI@.\
-                               _V1_UX182_CR0,0,182,268_AL_.jpg",
+                               poster_image_url="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
                                actors=["Peter Dinklage",
                                        "Lena Headey",
                                        "Emilia Clarke",
@@ -291,12 +270,7 @@ modern_family = media.TvShow(title="Modern Family",
                              -- happy family.",
                              trailer_youtube_url="https://www.\
                              youtube.com/watch?v=8RR9r2XyIhQ",
-                             poster_image_url="https://\
-                             images-na.ssl-images-amazon.com/\
-                             images/M/MV5BNzRjOTE1ZTEtMTkwYy\
-                             00MDQ4LTkxMmYtNzgxMWFlY2YyZj\
-                             U2XkEyXkFqcGdeQXVyMzAzNTY3MDM\
-                             @._V1_UX182_CR0,0,182,268_AL_.jpg",
+                             poster_image_url="https://images-na.ssl-images-amazon.com/images/M/MV5BNzRjOTE1ZTEtMTkwYy00MDQ4LTkxMmYtNzgxMWFlY2YyZjU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
                              actors=["Ed O'Neill",
                                      "Sofia Vergara",
                                      "Julia Bowen",
@@ -320,11 +294,7 @@ silicon_valley = media.TvShow(title="Silicon Valley",
                               a Silicon Valley engineer \in the late 1980s.",
                               trailer_youtube_url="https:\
                               //www.youtube.com/watch?v=r8sCCf82Nf8",
-                              poster_image_url="https://\
-                              images-na.ssl-images-amazon.com/images/\
-                              M/MV5BMTgwNTUzNzIxM15BM\
-                              l5BanBnXkFtZTgwMzQ1NTk2ODE@.\
-                              _V1_UX182_CR0,0,182,268_AL_.jpg",
+                              poster_image_url="https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNTUzNzIxM15BMl5BanBnXkFtZTgwMzQ1NTk2ODE@._V1_UX182_CR0,0,182,268_AL_.jpg",
                               actors=["Thomas Middleditch",
                                       "T.J. Miller",
                                       "Josh Brener",
